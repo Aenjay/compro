@@ -1,0 +1,6 @@
+#DataTable tr th {
+    white-space: nowrap;
+}
+#DataTable tr td {
+    vertical-align: middle;
+}
