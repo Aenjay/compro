@@ -213,7 +213,7 @@
                     <div class="card-body">
                         <h5 class="card-title">{{$item->judul}}</h5>
                         <p class="card-text">{{$item->ringkasan}}</p>
-                        <a href="#" class="btn btn-primary mt-3">Lihat</a>
+                        <a href="{{route('front.blog.show', $item->id)}}" class="btn btn-primary mt-3">Lihat</a>
                     </div>
                 </div>
             </div>
